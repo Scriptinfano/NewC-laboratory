@@ -4,13 +4,14 @@ int sum(int (*ar2)[4],int size);/*(*ar2)±ØÐëÓÃÀ¨ºÅÀ¨ÆðÀ´£¬Èç¹ûÐ´Îªint *ar2[4]Ôò±
 								µÄÖ¸Õë×é³ÉµÄÊý×é£¬¶ø²»ÊÇÒ»¸öÖ¸ÏòËÄ¸öÓÉintÖµ×é³ÉµÄÊý×éµÄÖ¸Õë£¬ÁíÍâÒ»¸öÔ­Òò
 								ÊÇº¯Êý²ÎÊý²»ÄÜÊÇÊý×é£¬²ÎÊýÖ»ÄÜ´«µÝÊý×éµÄµØÖ·£¬¾ÍÊÇÖ¸Õë*/
 //´«µÝ¶þÎ¬Êý×éµØÖ·µÄº¯ÊýÔ­ÐÍÓÐÁ½ÖÖÐ´·¨£º
-//1¡¢·µ»ØÖµÊý¾ÝÀàÐÍ º¯ÊýÃû(Ö¸ÕëÀàÐÍ (*Ö¸ÕëÃû)[¶þÎ¬Êý×éµÄÒ»Î¬ÔªËØÖµ],int ¶ÁÈ¡µÄÔªËØÊý)  int sum(int (*ps)[4],int size)
-//2¡¢·µ»ØÖµÊý¾ÝÀàÐÍ º¯ÊýÃû(Ö¸ÕëÀàÐÍ Êý×éÃû[][¶þÎ¬Êý×éµÄÒ»Î¬ÔªËØÖµ]£¬int ¶ÁÈ¡µÄÔªËØÊý)  int sum(int ar2[][4],int size)
+//1¡¢·µ»ØÖµÊý¾ÝÀàÐÍ º¯ÊýÃû(Ö¸ÕëÀàÐÍ (*Ö¸ÕëÃû)[¶þÎ¬Êý×éµÄÐÐÊý],int ¶ÁÈ¡µÄÔªËØÊý)  int sum(int (*ps)[4],int size)
+//2¡¢·µ»ØÖµÊý¾ÝÀàÐÍ º¯ÊýÃû(Ö¸ÕëÀàÐÍ Êý×éÃû[][¶þÎ¬Êý×éµÄÐÐÊý]£¬int ¶ÁÈ¡µÄÔªËØÊý)  int sum(int ar2[][4],int size)
 /*ÉÏÊöÁ½¸öÔ­ÐÍ¶¼Ö¸³ö£¬ar2ÊÇÖ¸Õë²»ÊÇÊý×é£¬Ö¸ÕëÀàÐÍÖ¸³öËüÖ¸ÏòÓÉËÄ¸öint×é³ÉµÄÊý×é¡£Òò´Ë£¬Ö¸ÕëÀàÐÍÖ¸¶¨ÁËÁÐ
-Êý£¬ËùÒÔÒ»°ãÀ´Ëµ¶þÎ¬Êý×éµÄÒ»Î¬ÔªËØÊýÐ´ÔÚµ÷ÓÃº¯ÊýÖÐµÄµÚ¶þ¸ö²ÎÊýÖÐ£¬¶þÎ¬Êý×éµÄ¶þÎ¬ÔªËØÊýÐ´ÔÚº¯ÊýÔ­ÐÍµÄÖ¸Õë
+Êý£¬ËùÒÔÒ»°ãÀ´Ëµ¶þÎ¬Êý×éµÄÐÐÊýÐ´ÔÚµ÷ÓÃº¯ÊýÖÐµÄµÚ¶þ¸ö²ÎÊýÖÐ£¬¶þÎ¬Êý×éµÄÁÐÊýÐ´ÔÚº¯ÊýÔ­ÐÍµÄÖ¸Õë£¬¼ò¼Ç£ºÐÐÊýÐ´ÔÚ²ÎÊýÖÐ£¬ÁÐÊýÐ´ÔÚÔ­ÐÍÖÐ
 ÀàÐÍËµÃ÷ÖÐ£¬Ö¸ÕëµÄÀàÐÍ¾ÍÖ¸³öÁËÕâ¸öÖ¸ÕëÖ¸ÏòÓÉ¼¸¸öÔªËØÊý×é³ÉµÄÊý×é£¨Õâ¸öÊý×éÖ¸µÄÊÇ¶þÎ¬Êý×éÀïÃæ°üº¬µÄÊý×é£©
 ËùÒÔÃ»ÓÐ½«ÁÐÊý£¨¶þÎ¬Êý×éµÄ¶þÎ¬ÔªËØÊý£©×÷Îª¶ÀÁ¢µÄº¯Êý²ÎÊýµÄÔ­Òò¾ÍÔÚÕâ¶ù*/
-/*ÒòÎªÖ¸ÕëÀàÐÍÖ¸¶¨ÁËÁÐÊý£¬Òò´Ësum()º¯ÊýÖ»ÄÜ½ÓÊÜÓÉ4ÁÐ×é³ÉµÄÊý×é£¬µ«³¤¶È±äÁ¿Ö¸¶¨ÁËÐÐÊý*/
+/*ÒòÎªÖ¸ÕëÀàÐÍÖ¸¶¨ÁËÁÐÊý£¬Òò´Ësum()º¯ÊýÖ»ÄÜ½ÓÊÜÓÉ4ÁÐ×é³ÉµÄÊý×é£¬µ«³¤¶È±äÁ¿Ö¸¶¨ÁËÐÐÊý£¬Òò´Ësum()µÄµÚ¶þ¸ö²ÎÊý²»Ò»¶¨µÈÓÚÊµ¼Ê¶þÎ¬Êý×éµÄ
+ÐÐÊý£¬¸ù¾ÝÊµ¼ÊÇé¿ö±ä¸ü*/
 int main()
 {
 	int data[3][4] = { {1,2,3,4}, {9,8,7,6}, {2,4,6,8} };
@@ -19,6 +20,14 @@ int main()
 
 	return 0;
 }
-int sum(int(*ar2)[4], int size) {
 
+/*Õâ¸ö¶Ô¶þÎ¬Êý×éËùÓÐÖµ½øÐÐ¼ÓºÍµÄº¯Êý¶¨Òå·Ç³£ÖØÒª
+ar2ÊÇÐÎÊ½²ÎÊý£¬ÔÚº¯Êý¶¨ÒåÖÐ±»¿´×÷ÊÇ¶þÎ¬Êý×éµÄÃû³Æ£¬Êµ¼ÊÉÏÊÇÒ»¸öÖ¸Õë£¬½ÓÊÜ´«µÝ¹ýÀ´µÄµØÖ·£¬ËùÒÔÔÚµ÷ÓÃº¯ÊýÊ±µÚÒ»¸ö²ÎÊýÐ´µÄÊÇÊý×é
+Ãû£¬Êµ¼ÊÉÏ´«µÝµÄ¾ÍÊÇÊý×éµÄµØÖ·£¬sizeÊÇ²»Ò»¶¨µÈÓÚ¶þÎ¬Êý×éµÄÐÐÊý£¬±ÈÈçËµÏëÒª¼ÆËã¶þÎ¬Êý×éµÄÇ°Á½¸öÔªËØµÄºÍ£¨Ç°Á½¸öÔªËØ¾ùÎªÊý×é£©£¬size¾ÍµÈÓÚ2£¬²»Ò»¶¨ÊÇ¶þÎ¬Êý×éµÄÐÐÊý3
+º¯Êý¶¨ÒåÖÐÊ¹ÓÃÇ¶Ì×Ñ­»·½«Ã¿¸öÊý×éÔªËØÖÐµÄÃ¿¸öÖµ¼ÓºÍ*/
+int sum(int(*ar2)[4], int size) {
+	int total = 0;
+	for (int r = 0; r < size; r++)
+		for (int c = 0; c < 4; c++)
+			total += ar2[r][c];
 }

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="比较数组、vector、array.cpp">
+    <ClCompile Include="四种状态.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

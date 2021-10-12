@@ -57,7 +57,7 @@ int main()
 	printf("num=%d \n aver=%f\n", i, aver);
 	return 0;
 }*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 const int sum = 100000;
 int main() {
@@ -74,4 +74,12 @@ int main() {
 	}
 	aver = total / i;
 	cout << "num=" << total << "\n" << "aver=" << aver;
+}*/
+#include<iostream>
+#include<vector>
+using namespace std;
+int main() {
+	vector<int>v1 = { 1,56,45 };
+	vector<int>v2{ v1 };
+	return 0;
 }

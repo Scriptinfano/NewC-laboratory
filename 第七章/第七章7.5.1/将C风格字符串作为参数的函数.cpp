@@ -30,7 +30,7 @@ int main()
 	/*示例程序（用函数检查计算特定的字符在字符串中出现的次数）*/
 	char mmm[15] = "minimum\0";
 	//char* wall = "ultimate";
-
+	char* str1 = mmm;
 
 	return 0;
 }

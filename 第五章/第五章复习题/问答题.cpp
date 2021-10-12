@@ -22,9 +22,15 @@ int main()
 			   1赋值给y，024会被丢弃*/
 	/*9、在查看输入方面，cin>>ch同cin.get(ch)和ch=cin.get()有什么不同
 	cin>>ch;会忽略所有空白字符（空格符、换行符、制表符）
+
 	cin.get(ch)和ch=cin.get()会读取所有ASC二字符并将其保存在变量ch中
-	cin.get(ch)适用于ch是char型数据时，ch=cin.get()适用于ch是int型
-	数据时*/
+
+	cin.get(ch)只能用在ch是char型数据时
+
+	ch=cin.get()只能于ch是int型数据时，但ch最终保存的不是你输入的数据，cin.get()函数在读取你的数字后会将其
+	视为char型数据并返回该char型数据在asc中的对应值，例如输入3会返回51，我们将3强制转换为char型数据时也会
+	输出51
+	数据时,*/
 	return 0;
 };
 /*7、用大括号将循环体语句包裹起来*/

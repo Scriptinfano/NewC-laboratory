@@ -75,11 +75,23 @@ int main() {
 	aver = total / i;
 	cout << "num=" << total << "\n" << "aver=" << aver;
 }*/
-#include<iostream>
+/*#include<iostream>
 #include<vector>
 using namespace std;
 int main() {
 	vector<int>v1 = { 1,56,45 };
 	vector<int>v2{ v1 };
+	return 0;
+}*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	char mmm[15] = "minimum";
+	cout << "Êä³öchar mmm[15] = \"minimum\";" << mmm << endl;
+	//char walls[] = { 'u','l','t','i','m','a','t','e','\0' };
+	char walls[] = { 'u','l','t','i','m','a','t','e' };
+	cout << "Êä³öchar walls[] = { 'u','l','t','i','m','a','t','e','\0' };" << walls << endl;
+
 	return 0;
 }

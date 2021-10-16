@@ -2,7 +2,7 @@
 #include<string>
 #include<cstring>
 using namespace std;
-unsigned int c_in_str(const char* str, char ch);/*第一个参数是指向char的常量指针，第二个参数是
+unsigned int counter(const char* str, char ch);/*第一个参数是指向char的常量指针，第二个参数是
 												要计算的特定字符*/
 int main() 
 {
@@ -28,9 +28,16 @@ int main()
 	查每个字符直到遇到空字符为止*/
 
 	/*示例程序（用函数检查计算特定的字符在字符串中出现的次数）*/
-	char mmm[15] = "minimum\0";
-	//char* wall = "ultimate";
+	char mmm[15] = "minimum";
+	char walls[] = { 'u','l','t','i','m','a','t','e','\0'};//包含空值字符的字符数组可被视为字符串
+	char* wall = walls;
 	char* str1 = mmm;
 
+	unsigned int ms = counter(mmm, 'm');
+	unsigned int us = counter(walls, 'u');
 	return 0;
+}
+unsigned int counter(char* pointer, char ch) 
+{
+
 }

@@ -4,7 +4,7 @@
 using namespace std;
 unsigned int counter(const char* str, char ch);/*第一个参数是指向char的常量指针，第二个参数是
 												要计算的特定字符*/
-int main() 
+int main()
 {
 	/*回顾表示字符串的三种方式：
 	1、初始化一个char数组
@@ -29,15 +29,30 @@ int main()
 
 	/*示例程序（用函数检查计算特定的字符在字符串中出现的次数）*/
 	char mmm[15] = "minimum";
-	char walls[] = { 'u','l','t','i','m','a','t','e','\0'};//包含空值字符的字符数组可被视为字符串
+	char walls[] = { 'u','l','t','i','m','a','t','e','\0' };//包含空值字符的字符数组可被视为字符串
 	char* wall = walls;
 	char* str1 = mmm;
 
 	unsigned int ms = counter(mmm, 'm');
 	unsigned int us = counter(walls, 'u');
+
+	cout << "在minimum中，m出现的次数是" << ms;
+	cout << "在ultimate中，u出现的次数是" << us;
+
 	return 0;
 }
-unsigned int counter(char* pointer, char ch) 
+unsigned int counter(const char* pointer, char ch) //用指针访问数组元素，并将元素和字符ch进行比较
 {
+	unsigned int count = 0;
+	while (*pointer)/*当指针指向空字符时停止循环*/
+	{
+		if (*pointer == ch) {
+			count++;
+		}
+		else {
+			pointer++;/*将指针向后移动*/
+		}
+		return count;
 
+	}
 }

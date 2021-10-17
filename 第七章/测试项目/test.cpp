@@ -83,7 +83,7 @@ int main() {
 	vector<int>v2{ v1 };
 	return 0;
 }*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main()
 {
@@ -93,5 +93,14 @@ int main()
 	char walls[] = { 'u','l','t','i','m','a','t','e' };
 	cout << "Êä³öchar walls[] = { 'u','l','t','i','m','a','t','e','\0' };" << walls << endl;
 
+	return 0;
+}*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int time = 15;
+	int* ps = &time;
+	cout << ps;
 	return 0;
 }

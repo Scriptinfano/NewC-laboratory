@@ -39,7 +39,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章7.10.1", "第七�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章7.10.2", "第七章7.10.2\第七章7.10.2.vcxproj", "{81087105-51B7-4C90-B63B-8D2F357517EB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章7.10.3", "第七章7.10.3\第七章7.10.3.vcxproj", "{4CC5EBB2-6791-4BB6-B98B-B85CD5BAB624}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章7.10.3（难点）", "第七章7.10.3\第七章7.10.3.vcxproj", "{4CC5EBB2-6791-4BB6-B98B-B85CD5BAB624}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章7.10.4与7.11", "第七章7.10.4\第七章7.10.4.vcxproj", "{61301F3E-3623-4801-96F4-A0231E65FE59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章复习题", "第七章复习题\第七章复习题.vcxproj", "{F7DF3221-2163-4634-A186-7306E493BCC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,22 @@ Global
 		{4CC5EBB2-6791-4BB6-B98B-B85CD5BAB624}.Release|x64.Build.0 = Release|x64
 		{4CC5EBB2-6791-4BB6-B98B-B85CD5BAB624}.Release|x86.ActiveCfg = Release|Win32
 		{4CC5EBB2-6791-4BB6-B98B-B85CD5BAB624}.Release|x86.Build.0 = Release|Win32
+		{61301F3E-3623-4801-96F4-A0231E65FE59}.Debug|x64.ActiveCfg = Debug|x64
+		{61301F3E-3623-4801-96F4-A0231E65FE59}.Debug|x64.Build.0 = Debug|x64
+		{61301F3E-3623-4801-96F4-A0231E65FE59}.Debug|x86.ActiveCfg = Debug|Win32
+		{61301F3E-3623-4801-96F4-A0231E65FE59}.Debug|x86.Build.0 = Debug|Win32
+		{61301F3E-3623-4801-96F4-A0231E65FE59}.Release|x64.ActiveCfg = Release|x64
+		{61301F3E-3623-4801-96F4-A0231E65FE59}.Release|x64.Build.0 = Release|x64
+		{61301F3E-3623-4801-96F4-A0231E65FE59}.Release|x86.ActiveCfg = Release|Win32
+		{61301F3E-3623-4801-96F4-A0231E65FE59}.Release|x86.Build.0 = Release|Win32
+		{F7DF3221-2163-4634-A186-7306E493BCC1}.Debug|x64.ActiveCfg = Debug|x64
+		{F7DF3221-2163-4634-A186-7306E493BCC1}.Debug|x64.Build.0 = Debug|x64
+		{F7DF3221-2163-4634-A186-7306E493BCC1}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7DF3221-2163-4634-A186-7306E493BCC1}.Debug|x86.Build.0 = Debug|Win32
+		{F7DF3221-2163-4634-A186-7306E493BCC1}.Release|x64.ActiveCfg = Release|x64
+		{F7DF3221-2163-4634-A186-7306E493BCC1}.Release|x64.Build.0 = Release|x64
+		{F7DF3221-2163-4634-A186-7306E493BCC1}.Release|x86.ActiveCfg = Release|Win32
+		{F7DF3221-2163-4634-A186-7306E493BCC1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

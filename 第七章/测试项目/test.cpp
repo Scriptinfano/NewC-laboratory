@@ -3,7 +3,7 @@ void f1(application* a);
 const char* f2(const application* a1, const application* a2);
 请将p1和p2分别声明为指向f1和f2的指针；将ap声明为一个数组，它包含5个类型与p1相同的指针；将pa声明为一个指针，它
 指向的数组包含10个类型与p2相同的指针，使用typedef来帮助完成这项工作。*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 struct application
 {
@@ -46,4 +46,17 @@ const char* f2(const application* a1, const application* a2)
 	cout << a1->name << endl;
 	cout << a2->credit_ratings << endl;
 	cout << a2->name << endl;
+}*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int array[3] = { 1,2,3 };
+	cout << array << endl;
+	int(*p)[3] = &array;//声明指向整个数组的指针
+	/*array和&array[0]都是数组的首地址；&array是整个数组的地址*/
+	cout << p + 1 << endl;
+	cout << *(p + 1) << endl;
+	
+	return 0;
 }

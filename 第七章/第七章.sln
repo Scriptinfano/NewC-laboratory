@@ -53,7 +53,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习2", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习3", "第七章编程练习3\第七章编程练习3.vcxproj", "{E5653612-6CE7-4845-B0AF-0EA1CF47BBB8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习4", "第七章编程练习4\第七章编程练习4.vcxproj", "{468142D8-025F-42B1-955D-1D937B45B22B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习5", "第七章编程练习4\第七章编程练习4.vcxproj", "{468142D8-025F-42B1-955D-1D937B45B22B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习6", "第七章编程练习7\第七章编程练习7.vcxproj", "{309A8F9E-D8F1-46FC-A794-916C412EB255}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习7", "第七章编程练习8\第七章编程练习8.vcxproj", "{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +275,22 @@ Global
 		{468142D8-025F-42B1-955D-1D937B45B22B}.Release|x64.Build.0 = Release|x64
 		{468142D8-025F-42B1-955D-1D937B45B22B}.Release|x86.ActiveCfg = Release|Win32
 		{468142D8-025F-42B1-955D-1D937B45B22B}.Release|x86.Build.0 = Release|Win32
+		{309A8F9E-D8F1-46FC-A794-916C412EB255}.Debug|x64.ActiveCfg = Debug|x64
+		{309A8F9E-D8F1-46FC-A794-916C412EB255}.Debug|x64.Build.0 = Debug|x64
+		{309A8F9E-D8F1-46FC-A794-916C412EB255}.Debug|x86.ActiveCfg = Debug|Win32
+		{309A8F9E-D8F1-46FC-A794-916C412EB255}.Debug|x86.Build.0 = Debug|Win32
+		{309A8F9E-D8F1-46FC-A794-916C412EB255}.Release|x64.ActiveCfg = Release|x64
+		{309A8F9E-D8F1-46FC-A794-916C412EB255}.Release|x64.Build.0 = Release|x64
+		{309A8F9E-D8F1-46FC-A794-916C412EB255}.Release|x86.ActiveCfg = Release|Win32
+		{309A8F9E-D8F1-46FC-A794-916C412EB255}.Release|x86.Build.0 = Release|Win32
+		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Debug|x64.ActiveCfg = Debug|x64
+		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Debug|x64.Build.0 = Debug|x64
+		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Debug|x86.Build.0 = Debug|Win32
+		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Release|x64.ActiveCfg = Release|x64
+		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Release|x64.Build.0 = Release|x64
+		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Release|x86.ActiveCfg = Release|Win32
+		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

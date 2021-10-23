@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{468142d8-025f-42b1-955d-1d937b45b22b}</ProjectGuid>
-    <RootNamespace>第七章编程练习4</RootNamespace>
+    <ProjectGuid>{fe30b965-6751-4bc6-8d3e-c6e79ed7ca9a}</ProjectGuid>
+    <RootNamespace>第七章编程练习8</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>第七章编程练习5</ProjectName>
+    <ProjectName>第七章编程练习7</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="第五题.cpp" />
+    <ClCompile Include="第七题.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

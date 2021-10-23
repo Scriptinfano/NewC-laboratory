@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章7.10.4与7.11", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章复习题", "第七章复习题\第七章复习题.vcxproj", "{F7DF3221-2163-4634-A186-7306E493BCC1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "测试项目2", "测试项目2\测试项目2.vcxproj", "{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{F7DF3221-2163-4634-A186-7306E493BCC1}.Release|x64.Build.0 = Release|x64
 		{F7DF3221-2163-4634-A186-7306E493BCC1}.Release|x86.ActiveCfg = Release|Win32
 		{F7DF3221-2163-4634-A186-7306E493BCC1}.Release|x86.Build.0 = Release|Win32
+		{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}.Debug|x64.ActiveCfg = Debug|x64
+		{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}.Debug|x64.Build.0 = Debug|x64
+		{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}.Debug|x86.Build.0 = Debug|Win32
+		{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}.Release|x64.ActiveCfg = Release|x64
+		{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}.Release|x64.Build.0 = Release|x64
+		{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}.Release|x86.ActiveCfg = Release|Win32
+		{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

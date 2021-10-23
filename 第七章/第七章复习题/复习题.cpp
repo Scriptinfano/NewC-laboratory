@@ -215,7 +215,23 @@ a、编写一个函数，它将application结构作为参数，并显示该参数指向的结构的内容。
          fun1(stru1);
 函数定义：
 b、编写一个函数，它将application结构的地址作为参数，并显示该参数指向的结构的内容
+函数原型：void fun2(application*);
+函数调用：application stru1={{'a','b','c'},{12,15,345}};
+         fun1(&stru1);
+函数定义：void fun2(application *p1)
+         {
+             for(int i=0;i<3;i++)
+             {
+                 cout<<p1->name[i];
+                 cout<<p1->credit_ratings[i];
+             }
+         }
 
+13、假设函数f1()和函数f2()的原型如下：
+void f1(application*a);
+const char *f2(const application *a1,const application *a2);
+请将p1和p2分别声明为指向f1和f2的指针；将ap声明为一个数组，它包含5个类型与p1相同的指针；将pa声明为一个指针，它
+指向的数组包含10个类型与p2相同的指针，使用typedef来帮助完成这项工作。
 
 
 

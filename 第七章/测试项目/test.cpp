@@ -20,9 +20,10 @@ int main()
 	application v2 = { {"fuck you"},{15,56,14} };
 	void (*p1)(application * a);
 	const char* (*p2)(const application * a1, const application * a2);
-	*ap[5]
 
-
+	//创建指针数组，数组的元素是函数指针
+	void (*ap[5])(application * a) = { f1 };
+	const char* (*pa[10])(const application * a1, const application * a2) = { f2 };
 
 	return 0;
 }

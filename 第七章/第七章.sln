@@ -47,17 +47,27 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章复习题", "第�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "测试项目2", "测试项目2\测试项目2.vcxproj", "{34CACE1D-CC2A-490E-9F61-A27FC44F1CF9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习1", "第七章编程练习1\第七章编程练习1.vcxproj", "{774313BC-460A-421C-A5DC-3CEE8561DC61}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习01", "第七章编程练习1\第七章编程练习1.vcxproj", "{774313BC-460A-421C-A5DC-3CEE8561DC61}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习2", "第七章编程练习2\第七章编程练习2.vcxproj", "{ECD07F95-2441-4E2D-9A9F-81E03981BA09}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习02", "第七章编程练习2\第七章编程练习2.vcxproj", "{ECD07F95-2441-4E2D-9A9F-81E03981BA09}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习3", "第七章编程练习3\第七章编程练习3.vcxproj", "{E5653612-6CE7-4845-B0AF-0EA1CF47BBB8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习03", "第七章编程练习3\第七章编程练习3.vcxproj", "{E5653612-6CE7-4845-B0AF-0EA1CF47BBB8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习5", "第七章编程练习4\第七章编程练习4.vcxproj", "{468142D8-025F-42B1-955D-1D937B45B22B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习05", "第七章编程练习4\第七章编程练习4.vcxproj", "{468142D8-025F-42B1-955D-1D937B45B22B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习6", "第七章编程练习7\第七章编程练习7.vcxproj", "{309A8F9E-D8F1-46FC-A794-916C412EB255}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习06", "第七章编程练习7\第七章编程练习7.vcxproj", "{309A8F9E-D8F1-46FC-A794-916C412EB255}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习7", "第七章编程练习8\第七章编程练习8.vcxproj", "{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习07", "第七章编程练习8\第七章编程练习8.vcxproj", "{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习08版本01", "第七章编程练习\第七章编程练习.vcxproj", "{649D89D1-312B-4D9E-B976-C8A13D6C81CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习08版本01标准答案", "第七章编程练习8标准答案\第七章编程练习8标准答案.vcxproj", "{D19DB56A-854F-43A9-AB04-1570B5C69049}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习08版本02", "第七章编程练习8版本2\第七章编程练习8版本2.vcxproj", "{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习09", "第七章编程练习9\第七章编程练习9.vcxproj", "{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第七章编程练习10", "第七章编程练习10\第七章编程练习10.vcxproj", "{628682A4-288A-49C8-880B-E78DBA2B3E48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +301,46 @@ Global
 		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Release|x64.Build.0 = Release|x64
 		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Release|x86.ActiveCfg = Release|Win32
 		{FE30B965-6751-4BC6-8D3E-C6E79ED7CA9A}.Release|x86.Build.0 = Release|Win32
+		{649D89D1-312B-4D9E-B976-C8A13D6C81CB}.Debug|x64.ActiveCfg = Debug|x64
+		{649D89D1-312B-4D9E-B976-C8A13D6C81CB}.Debug|x64.Build.0 = Debug|x64
+		{649D89D1-312B-4D9E-B976-C8A13D6C81CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{649D89D1-312B-4D9E-B976-C8A13D6C81CB}.Debug|x86.Build.0 = Debug|Win32
+		{649D89D1-312B-4D9E-B976-C8A13D6C81CB}.Release|x64.ActiveCfg = Release|x64
+		{649D89D1-312B-4D9E-B976-C8A13D6C81CB}.Release|x64.Build.0 = Release|x64
+		{649D89D1-312B-4D9E-B976-C8A13D6C81CB}.Release|x86.ActiveCfg = Release|Win32
+		{649D89D1-312B-4D9E-B976-C8A13D6C81CB}.Release|x86.Build.0 = Release|Win32
+		{D19DB56A-854F-43A9-AB04-1570B5C69049}.Debug|x64.ActiveCfg = Debug|x64
+		{D19DB56A-854F-43A9-AB04-1570B5C69049}.Debug|x64.Build.0 = Debug|x64
+		{D19DB56A-854F-43A9-AB04-1570B5C69049}.Debug|x86.ActiveCfg = Debug|Win32
+		{D19DB56A-854F-43A9-AB04-1570B5C69049}.Debug|x86.Build.0 = Debug|Win32
+		{D19DB56A-854F-43A9-AB04-1570B5C69049}.Release|x64.ActiveCfg = Release|x64
+		{D19DB56A-854F-43A9-AB04-1570B5C69049}.Release|x64.Build.0 = Release|x64
+		{D19DB56A-854F-43A9-AB04-1570B5C69049}.Release|x86.ActiveCfg = Release|Win32
+		{D19DB56A-854F-43A9-AB04-1570B5C69049}.Release|x86.Build.0 = Release|Win32
+		{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}.Debug|x64.ActiveCfg = Debug|x64
+		{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}.Debug|x64.Build.0 = Debug|x64
+		{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}.Debug|x86.Build.0 = Debug|Win32
+		{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}.Release|x64.ActiveCfg = Release|x64
+		{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}.Release|x64.Build.0 = Release|x64
+		{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}.Release|x86.ActiveCfg = Release|Win32
+		{7A4F084E-A385-4B02-A8F4-0D6DE83A37DD}.Release|x86.Build.0 = Release|Win32
+		{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}.Debug|x64.ActiveCfg = Debug|x64
+		{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}.Debug|x64.Build.0 = Debug|x64
+		{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}.Debug|x86.ActiveCfg = Debug|Win32
+		{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}.Debug|x86.Build.0 = Debug|Win32
+		{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}.Release|x64.ActiveCfg = Release|x64
+		{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}.Release|x64.Build.0 = Release|x64
+		{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}.Release|x86.ActiveCfg = Release|Win32
+		{94BEE7A5-6CB5-4D53-A3F1-1FB497C7E942}.Release|x86.Build.0 = Release|Win32
+		{628682A4-288A-49C8-880B-E78DBA2B3E48}.Debug|x64.ActiveCfg = Debug|x64
+		{628682A4-288A-49C8-880B-E78DBA2B3E48}.Debug|x64.Build.0 = Debug|x64
+		{628682A4-288A-49C8-880B-E78DBA2B3E48}.Debug|x86.ActiveCfg = Debug|Win32
+		{628682A4-288A-49C8-880B-E78DBA2B3E48}.Debug|x86.Build.0 = Debug|Win32
+		{628682A4-288A-49C8-880B-E78DBA2B3E48}.Release|x64.ActiveCfg = Release|x64
+		{628682A4-288A-49C8-880B-E78DBA2B3E48}.Release|x64.Build.0 = Release|x64
+		{628682A4-288A-49C8-880B-E78DBA2B3E48}.Release|x86.ActiveCfg = Release|Win32
+		{628682A4-288A-49C8-880B-E78DBA2B3E48}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

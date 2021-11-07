@@ -14,10 +14,11 @@
       6、使用完文件后，应使用方法close()将其关闭
       7、结合使用ofstream对象和运算符<<来输出各种类型的数据*/
 
-      /*文本I/O的概念：使用cin进行输入时，程序将输入视为一系列的字节，每个字节被解释为字符编码，不管目标数据类型是
-      什么，输入一开始都是字符数据--文本数据。然后cin对象负责将文本转换为其他类型*/
-      /*直接来看在cin输入中最复杂的情况，也就是用两种方法将字符读入字符数组的情况*/
-/*#include<iostream>
+/*文本I/O的概念：使用cin进行输入时，程序将输入视为一系列的字节，每个字节被解释为字符编码，不管目标数据类型是
+什么，输入一开始都是字符数据--文本数据。然后cin对象负责将文本转换为其他类型*/
+/*
+直接来看在cin输入中最复杂的情况，也就是用两种方法将字符读入字符数组的情况
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -75,18 +76,23 @@ int main()
     ofstream outfile;
     outfile.open("D:/testfiles/test.txt",ios::out);
     outfile << "test for input";
-    outfile.close();/*方法close不需要使用文件地址作为参数，outfile已经和该文件关联了起来，因此close的
-                    作用对象也一定是该文件*/
-    /*open()函数有两个参数，第一个参数是文件的路径，第二个参数是文件的打开方式
-    文件的打开方式有如下几种：
-    ios::in   为读文件而打开文件
-    ios::out   为写文件而打开文件
-    ios::ate   初始位置：文件尾
-    ios::app   追加方式写文件（追加方式的意思就是如果文件中已经有内容了，则光标移动到文件的最后接着写）
-    ios::trunc   如果文件存在先删除，再创建
-    ios::binary   以二进制的形式打开文件*/
-    /*文件的打开方式还可以配合使用，如
-    1、用二进制方式写文件  ios::binary|ios::out*/
+    outfile.close();/*方法close不需要使用文件地址作为参数，outfile已经和该文件关联了起来，因此close的作用对象也一定是该文件*/
+
+/*
+成员函数open()中的第二个参数文件打开模式标记参数大全
+ios::in 					打开文件用于读取数据，若文件不存在，则打开出错
+ios::out 					打开文件用于写入数据，若文件不存在，则新建该文件；如果文件原本存在，则代开后清除原内容
+ios::app 					打开文件，用于在末尾添加数据，如果文件不存在，则新建文件
+ios::trunc 					打开文件时会清空内部所有数据，单独使用时的作用和ios::out相同
+ios::binary 				以二进制方式打开文件，若不指定此模式，则以文本模式代开
+ios::in|ios::out			打开已存在的文件，可读取内容，也可以向其中写数据，文件打开时，原有内容保持不变，如果文件不存在，则打开出错
+ios::out|ios::app			在文件末尾追加写入数据
+ios::in|ios::out|ios::trunc	打开文件，可读取可写入，若文件本存在，打开时清除原有内容；若文件不存在，则新建文件
+
+文件的打开方式还可以配合使用，如:
+1、ios::binary|ios::out     以二进制方式写入文件
+2、ios::out|ios::app        以追加方式写入文件
+*/
     cout << "enter the make and model of automobile:";
     cin.getline(automobile, 50);
     cout << "enter the model year";
@@ -95,7 +101,7 @@ int main()
     cin >> a_price;
     d_price = 0.913 * a_price;
 
-    cout << fixed;
+    cout << fixed; /*用一般的方式输出浮点数，不使用科学记数法*/
     cout.precision(2);
     return 0;
 };

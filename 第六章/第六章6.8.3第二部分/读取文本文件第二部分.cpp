@@ -5,12 +5,14 @@ using namespace std;
 const int SIZE = 60;
 int main()
 {
-	/*ofstream outfile;
-	ifstream infile;/*声明ifstream类对象infile*/
+	/*
+    ofstream outfile;
+	ifstream infile;\\声明ifstream类对象infile
 	
-	/*outfile.open("D:/testfiles/test.txt", ios::out);
+	outfile.open("D:/testfiles/test.txt", ios::out);
 	infile.open("D:/testfiles/test.txt", ios::in);
-	if (!infile.is_open()) {
+	if (!infile.is_open()) //成员函数is_open()在检测到打开流错误时返回false，取反得true，执行条件语句
+    {
 		cout << "无法打开名为test的文件" << endl;
 		cout << "程序终止";
 		exit(EXIT_FAILURE);
@@ -64,11 +66,11 @@ int main()
 
     if (inFile.eof())
         cout << "遇到文件尾条件，终止读取\n";
-    else if (inFile.fail())/*fail()函数不止能检测是否是因为输入类型不匹配而发生错误，也可以检测是否遇到
-                           文件尾条件*/
+    else if (inFile.fail())/*fail()函数不止能检测是否是因为输入类型不匹配而发生错误，也可以检测是否遇到文件尾条件*/
         cout << "读入类型不匹配，发生非致命错误\n";
     else
         cout << "因未知原因终止读取\n";
+        
     if (count == 0)/*计数为零则意味着没有读取*/
         cout << "未读取任何数据\n";
     else
